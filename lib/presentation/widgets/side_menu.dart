@@ -74,7 +74,7 @@ class _SideMenuState extends State<SideMenu> {
           padding: EdgeInsets.fromLTRB(28, hasNotch ? 0 : 20, 16, 10),
           child: Text("Marvel Champions", style: estiloSubtitulo),
         ),
-        ...appMenuItems.sublist(1, 3).map(
+        ...appMenuItems.sublist(1, 5).map(
               (item) => NavigationDrawerDestination(
                 icon: Icon(item.icon),
                 label: Text(item.title),
@@ -90,7 +90,7 @@ class _SideMenuState extends State<SideMenu> {
           padding: const EdgeInsets.fromLTRB(28, 10, 16, 10),
           child: Text("MarvelCDB", style: estiloSubtitulo),
         ),
-        ...appMenuItems.sublist(3, 5).map(
+        ...appMenuItems.sublist(5, 7).map(
               (item) => NavigationDrawerDestination(
                 icon: Icon(item.icon),
                 label: Text(item.title),
@@ -102,7 +102,7 @@ class _SideMenuState extends State<SideMenu> {
           child: Divider(),
         ),
         //* Otros
-        ...appMenuItems.sublist(5, 6).map(
+        ...appMenuItems.sublist(7, 8).map(
               (item) => NavigationDrawerDestination(
                 icon: Icon(item.icon),
                 label: Text(item.title),

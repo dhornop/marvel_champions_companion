@@ -25,7 +25,7 @@ class ListadoMazosScreen extends StatelessWidget {
       body: const _ListadoMazosView(),
       drawer: SideMenu(
         scaffoldKey: scaffoldKey,
-        idxElementoSeleccionado: 4,
+        idxElementoSeleccionado: 6,
       ),
     );
   }

@@ -3,7 +3,9 @@ import "package:marvel_champions/presentation/screens/configuracion_screen.dart"
 import "package:marvel_champions/presentation/screens/home_screen.dart";
 import "package:marvel_champions/presentation/screens/marvel_cdb/creacion_mazos_screen.dart";
 import "package:marvel_champions/presentation/screens/marvel_cdb/listado_mazos_screen.dart";
+import "package:marvel_champions/presentation/screens/marvel_champions/contadores_screen.dart";
 import "package:marvel_champions/presentation/screens/marvel_champions/estadisticas_screen.dart";
+import "package:marvel_champions/presentation/screens/marvel_champions/generacion_partida_aleatoria_screen.dart";
 import "package:marvel_champions/presentation/screens/marvel_champions/registro_partidas_screen.dart";
 
 final appRouter = GoRouter(
@@ -32,6 +34,17 @@ final appRouter = GoRouter(
       name: EstadisticasScreen.name,
       builder: (context, state) => const EstadisticasScreen(),
     ),
+    GoRoute(
+      path: "/contadores",
+      name: ContadoresScreen.name,
+      builder: (context, state) => const ContadoresScreen(),
+    ),
+    GoRoute(
+      path: "/generadorPartidaAleatoria",
+      name: GeneracionPartidaAleatoriaScreen.name,
+      builder: (context, state) => const GeneracionPartidaAleatoriaScreen(),
+    ),
+
     //* Marvel CDB
     GoRoute(
       path: "/creacionMazos",

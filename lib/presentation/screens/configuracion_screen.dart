@@ -25,7 +25,7 @@ class ConfiguracionScreen extends StatelessWidget {
       body: const _ConfiguracionView(),
       drawer: SideMenu(
         scaffoldKey: scaffoldKey,
-        idxElementoSeleccionado: 5,
+        idxElementoSeleccionado: 7,
       ),
     );
   }

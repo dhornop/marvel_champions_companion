@@ -5,12 +5,12 @@ import "package:marvel_champions/presentation/widgets/side_menu.dart";
 //! Clase principal
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-class CountersScreen extends StatelessWidget {
+class ContadoresScreen extends StatelessWidget {
   //! Propiedades
-  static const String name = "counters_screen"; //Nombre que se utiliza para la ruta (estático para no necesitar crear instancias de la clase)
+  static const String name = "contadores_screen"; //Nombre que se utiliza para la ruta (estático para no necesitar crear instancias de la clase)
 
   //! Constructor
-  const CountersScreen({super.key});
+  const ContadoresScreen({super.key});
 
   //! Función de construcción (build) del widget
   @override
@@ -20,12 +20,12 @@ class CountersScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Generación aleatoria de partida"),
+        title: const Text("Contadores"),
       ),
-      body: const _CountersView(),
+      body: const _ContadoresView(),
       drawer: SideMenu(
         scaffoldKey: scaffoldKey,
-        idxElementoSeleccionado: 1,
+        idxElementoSeleccionado: 3,
       ),
     );
   }
@@ -35,11 +35,11 @@ class CountersScreen extends StatelessWidget {
 //! Clase secundaria interna
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-class _CountersView extends StatelessWidget {
+class _ContadoresView extends StatelessWidget {
   //! Propiedades
 
   //! Constructor
-  const _CountersView();
+  const _ContadoresView();
 
   //! Función de construcción (build) del widget
   @override

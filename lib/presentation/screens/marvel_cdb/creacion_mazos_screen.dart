@@ -25,7 +25,7 @@ class CreacionMazosScreen extends StatelessWidget {
       body: const _CreacionMazosView(),
       drawer: SideMenu(
         scaffoldKey: scaffoldKey,
-        idxElementoSeleccionado: 3,
+        idxElementoSeleccionado: 5,
       ),
     );
   }

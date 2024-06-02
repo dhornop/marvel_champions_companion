@@ -20,12 +20,12 @@ class GeneracionPartidaAleatoriaScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Generación aleatoria de partida"),
+        title: const Text("Generador de partidas aleatorias"),
       ),
       body: const _GeneracionPartidaAleatoriaView(),
       drawer: SideMenu(
         scaffoldKey: scaffoldKey,
-        idxElementoSeleccionado: 1,
+        idxElementoSeleccionado: 4,
       ),
     );
   }
