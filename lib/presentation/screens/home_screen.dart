@@ -3,6 +3,10 @@ import "package:go_router/go_router.dart";
 import "package:marvel_champions/config/menu/menu_item.dart";
 import "package:marvel_champions/presentation/widgets/side_menu.dart";
 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//! Clase principal
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 class HomeScreen extends StatelessWidget {
   //! Propiedades
   static const String name = "home_screen"; //Nombre que se utiliza para la ruta (estático para no necesitar crear instancias de la clase)
@@ -29,6 +33,10 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//! Clase secundaria interna
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 class _HomeView extends StatelessWidget {
   //! Propiedades
 
@@ -47,6 +55,10 @@ class _HomeView extends StatelessWidget {
     );
   }
 }
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//! Otras clases
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 class _CustomListTile extends StatelessWidget {
   //! Propiedades
@@ -85,7 +97,8 @@ class _CustomListTile extends StatelessWidget {
         //Navigator.pushNamed(context, menuItem.link);
 
         //? Sistema de navegación 3 (Using go_router (por ruta) - Del paquete Go_Router)
-        context.push(menuItem.link);
+        //context.push(menuItem.link);
+        context.pushReplacement(menuItem.link);
 
         //? Sistema de navegación 4 (Using go_router (por nombre) - Del paquete Go_Router)
         //context.pushNamed(CardsScreen.name);

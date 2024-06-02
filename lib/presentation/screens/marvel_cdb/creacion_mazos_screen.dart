@@ -1,6 +1,10 @@
 import "package:flutter/material.dart";
 import "package:marvel_champions/presentation/widgets/side_menu.dart";
 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//! Clase principal
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 class CreacionMazosScreen extends StatelessWidget {
   //! Propiedades
   static const String name = "creacion_mazos_screen"; //Nombre que se utiliza para la ruta (estático para no necesitar crear instancias de la clase)
@@ -26,6 +30,10 @@ class CreacionMazosScreen extends StatelessWidget {
     );
   }
 }
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//! Clase secundaria interna
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 class _CreacionMazosView extends StatelessWidget {
   //! Propiedades

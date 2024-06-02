@@ -51,7 +51,7 @@ class _SideMenuState extends State<SideMenu> {
 
         // Navegamos a la página seleccionada
         final menuItem = appMenuItems[value];
-        context.push(menuItem.link);
+        context.pushReplacement(menuItem.link);
 
         // Del Scaffold actual, cerramos el menú para que, al volver, no se siga mostrando abierto
         widget.scaffoldKey.currentState?.closeDrawer();

@@ -17,7 +17,7 @@ const appMenuItems = <MenuItem>[
   MenuItem(title: "Estadísticas", subTitle: "Visualiza las estadísticas generadas a partir de tus partidas registradas", link: "/estadisticas", icon: Icons.query_stats_rounded),
   // Marvel CDB
   MenuItem(title: "Creación de mazos", subTitle: "Crea un mazo para tu héroe", link: "/creacionMazos", icon: Icons.add_rounded),
-  MenuItem(title: "Mazos", subTitle: "Visualiza tu listado de mazos", link: "/listadoMazos", icon: Icons.list_rounded),
+  MenuItem(title: "Listado de mazos ", subTitle: "Visualiza tu listado de mazos", link: "/listadoMazos", icon: Icons.list_rounded),
   // Otros
   MenuItem(title: "Configuración", subTitle: "Configura la App", link: "/configuracion", icon: Icons.settings_rounded),
 ];
