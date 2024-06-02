@@ -1,4 +1,4 @@
-# marvel_champions
+# marvel_champions_companion
 
 A new Flutter project.
 
