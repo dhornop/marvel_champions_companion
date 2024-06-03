@@ -20,7 +20,8 @@ class EstadisticasScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Estadísticas"),
+        backgroundColor: Colors.red,
+        title: const Text("Estadísticas", style: TextStyle(color: Colors.white)),
       ),
       body: const _EstadisticasView(),
       drawer: SideMenu(

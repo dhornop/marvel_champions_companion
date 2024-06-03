@@ -20,7 +20,8 @@ class ListadoMazosScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Listado de mazos"),
+        backgroundColor: Colors.red,
+        title: const Text("Listado de mazos", style: TextStyle(color: Colors.white)),
       ),
       body: const _ListadoMazosView(),
       drawer: SideMenu(

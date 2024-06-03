@@ -20,7 +20,8 @@ class GeneracionPartidaAleatoriaScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Generador de partidas aleatorias"),
+        backgroundColor: Colors.red,
+        title: const Text("Generador de partidas aleatorias", style: TextStyle(color: Colors.white)),
       ),
       body: const _GeneracionPartidaAleatoriaView(),
       drawer: SideMenu(

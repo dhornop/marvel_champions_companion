@@ -22,7 +22,8 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Marvel Champions Companion"),
+        backgroundColor: Colors.red,
+        title: const Text("Marvel Champions Companion", style: TextStyle(color: Colors.white)),
       ),
       body: const _HomeView(),
       drawer: SideMenu(

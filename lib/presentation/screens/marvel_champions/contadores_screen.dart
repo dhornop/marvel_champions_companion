@@ -20,7 +20,8 @@ class ContadoresScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Contadores"),
+        backgroundColor: Colors.red,
+        title: const Text("Contadores", style: TextStyle(color: Colors.white)),
       ),
       body: const _ContadoresView(),
       drawer: SideMenu(

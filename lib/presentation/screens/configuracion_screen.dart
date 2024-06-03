@@ -20,7 +20,8 @@ class ConfiguracionScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Configuración"),
+        backgroundColor: Colors.red,
+        title: const Text("Configuración", style: TextStyle(color: Colors.white)),
       ),
       body: const _ConfiguracionView(),
       drawer: SideMenu(

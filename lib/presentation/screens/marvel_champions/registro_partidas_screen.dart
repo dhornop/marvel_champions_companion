@@ -20,7 +20,8 @@ class RegistroPartidasScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text("Registro de partidas"),
+        backgroundColor: Colors.red,
+        title: const Text("Registro de partidas", style: TextStyle(color: Colors.white)),
       ),
       body: const _RegistroPartidasView(),
       drawer: SideMenu(
